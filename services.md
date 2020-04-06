@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What is holistic sex therapy?
-feature_image: "https://picsum.photos/1300/400?image=126"
+feature_image: "/assets/covers/cover-autumn-leaves.jpg"
 feature_text: |
   # Holistic Sex Therapy
 aside: true
@@ -88,31 +88,3 @@ Yes. Sometimes just mentioning the possibility of therapy brings fresh hope and 
 
 ### I don't feel like having sex and my marriage is suffering. Is there help for me?
 I hear this complaint from many clients, and I am able to help most of them. Lack of sexual drive is often due to specific factors which over time inhibit desire. Within the first couple of sessions, I will help you identify when and how your natural sexual energy has become stuck. I have found that with proper guidance and support, many clients feel motivated to want sex again.
-
-## Participants wanted for research: The meaning of low sexual desire
-
-### What is this study about?
-
-I am conducting a research project as part of evaluating my usual clinical practice with clients. You are invited to attend a standard course of mindfulness and meditation-based sex therapy sessions to explore sexual desire problems and to gain understanding about the nature of your lack of sexual interest.
-
-### Who can take part?
-
-Men and women 18+ years old, single or partnered, who have in the past or are currently experiencing the following:
-
-Reduced interest in sex; loss of sexual desire; lack of sexual thoughts or fantasies; less enjoyment of sexual pleasure; avoiding initiating sexual activity; reduced sensations during sexual encounters.
-You may or may not feel distressed about the lowered motivation to have sex.
-Symptoms described above may be recent or have been present for many years.
-What does this study involve?
-You will be asked to attend between one and ten 90 minute face-to-face mindfulness and meditation based sex therapy appointments. As part of the therapy you will be asked questions about your perceptions of sexual desire and how this has influenced any of your behaviours. You will be invited to examine details of your life that you feel have impacted on your sexual desire.
-
-During the meditation part of the session you will be invited to direct your awareness to your body and, if appropriate, describe any feelings and sensations. You will also be invited to share any changes of perceptions which happen during the course of the therapy, including aspects you found instructive and helpful.
-
-Your permission is asked for the therapy sessions that you attend to be audio recorded. Your involvement in the research is part of the normal consultation I offer clients in my clinical practice. You will be asked to pay the standard fee for each session.
-
-### Who is carrying out this study?
-
-This study is being conducted by Andrea Haas, who is a psychologist and clinical sex therapist in private practice and a PhD candidate from the Centre for Health Research in the School of Medicine at the University of Western Sydney. The study forms part of the requirements in fulfilment of the Doctor of Philosophy degree and has been approved by the University of Western Sydney Human Research Ethics Committee (Approval number: H11143).
-
-Andrea Haas is being supervised by Professor Jane Ussher, who is an academic at the Centre of Health Research, and a Clinical Psychologist.
-
-If you would like to participate or find out more about this study please contact Andrea Haas on 0425 218 022 or through email at andrea@andreahaas.com
