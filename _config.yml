@@ -22,10 +22,22 @@ plugins:
 # Site settings
 url: 'https://andreahaas.com'
 baseurl: ''
+lang: en-GB
 title: 'Andrea Haas | Holistic sex therapist'
 description: 'Andrea Haas, Holistic Sex Therapist in Sydney, specialises in sexual dysfunction, premature ejaculation, painful sex, sexual desire and libido.'
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+logo: "/assets/logos/logo.svg"
+
+# 8. Site favicons & manifest icons
+favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
+  16: '/assets/logos/logo@16px.png'
+  32: '/assets/logos/logo@32px.png'
+  96: '/assets/logos/logo@96px.png'
+  120: '/assets/logos/logo@120px.png'
+  144: '/assets/logos/logo@144px.png'
+  180: '/assets/logos/logo@180px.png'
+  512: '/assets/logos/logo@512px.png'
+  1024: '/assets/logos/logo@1024px.png'
 
 # Pagination
 paginate: 5
@@ -35,10 +47,14 @@ paginate_path: blog/page:num
 navigation_header:
 - title: Home
   url: /
+- title: Services
+  url: /services/
 - title: About
   url: /about/
-- title: Blog
-  url: /blog/
+- title: Contact
+  url: /contact/
+# - title: Blog
+#   url: /blog/
 
 # Footer nav
 navigation_footer:

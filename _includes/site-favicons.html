@@ -1,0 +1,9 @@
+{% if site.favicons %}
+  {% for icon in site.favicons %}
+    <link rel="icon" type="image/png" href="{{ icon[1] }}" sizes="{{ icon[0] }}x{{ icon[0] }}">
+    <link rel="apple-touch-icon" sizes="{{ icon[0] }}x{{ icon[0] }}" href="{{ icon[1] }}">
+    {% if icon[0] == 32 %}
+    <link rel="shortcut icon" href="{{ icon[1] }}">
+    {% endif %}
+  {% endfor %}
+{% endif %}
