@@ -20,7 +20,7 @@ This is an obligation free service and is only available to sincere requests. Pl
 
 Also, indicate the best time for me to contact you. This first conversation is not designed to fix your situation, but it gives you the opportunity to briefly speak about your issues and ask me any questions. I may then be able to point out therapeutic directions helpful for your particular situation.
 
-{% include site-form-questionnaire.html name="Self Report Questionnaire" %}
+{% include site-form-questionnaire.html name="Self Report Questionnaire" form_action="https://formspree.io/xrgarolo" %}
 
 ## Booking information
 

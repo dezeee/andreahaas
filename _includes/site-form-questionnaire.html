@@ -12,7 +12,7 @@
   {% assign thanks_url = "/thanks/" %}
 {% endif %}
 
-<form class="form  form--{{ name_id }}" method="post" name="{{ name }}" action="{{ thanks_url }}"
+<form class="form  form--{{ name_id }}" name="{{ name }}" action="{{ include.form_action }}" method="post"
   {% if include.netlify_form %}
     netlify-honeypot="bot-field"
     netlify
@@ -116,12 +116,13 @@
       <label  style="display:none">Don’t fill this out if you’re human: <input name="bot-field" /></label>
     {% else %}
       <input type="text" name="_gotcha" style="display:none">
-      <input type="hidden" name="_subject" value="{{ site.title }} submission from {{ name }}">
-      <input type="hidden" name="_next" value="{{ thanks_url }}" />
+      <input type="hidden" name="_subject" value="{{ name }}">
+      <input type="hidden" name="_next" value="{{ thanks_url | absolute_url }}" />
     {% endif %}
   </fieldset>
 </form>
 {% unless include.netlify_form %}
+  {% comment %}
   <script>
     var email = "{{ site.email | split: "" | reverse | join: "" }}";
     var unraveledEmail = email.split("").reverse().join("");
@@ -129,4 +130,5 @@
       form.setAttribute("action", "https://formspree.io/" + unraveledEmail);
   </script>
   <noscript>Please enable JavaScript to use the form.</noscript>
+  {% endcomment %}
 {% endunless %}
