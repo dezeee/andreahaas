@@ -13,6 +13,12 @@ feature_text: |
 - [Clinic location](#clinic-location)
 - [Medicare & private health fund claims](#medicare--private-health-fund-claims)
 
+## Primary
+
+<p>
+{% include icon-feather.html id="phone" title="phone" %} 0425 218 022<br>
+{% include icon.html id="email" title="email" %} <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+</p>
 
 ## Self Report Questionnaire
 
@@ -48,7 +54,7 @@ For clients who live outside Sydney, interstate or come from overseas, sessions 
 
 ## Clinic location
 
-`Suite 54, Chatswood Village, 47 Neridah St, Chatswood NSW 2067`
+**Suite 54, Chatswood Village, 47 Neridah St, Chatswood NSW 2067**
 
 The Clinic Rooms are located in the inner courtyard of Chatswood Village best accessed from Oscar St.
 

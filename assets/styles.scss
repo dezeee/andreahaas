@@ -115,13 +115,16 @@ a .icon-feather {
         stroke: currentColor;
     }
 }
-
+.icon {
+    margin-right: 6px;
+}
 .icon-feather {
     vertical-align: middle;
     width: 1.1em;
     height: 1.1em;
     fill: none;
     stroke: CurrentColor;
+    margin-right: 6px;
 }
   
 // Image with text on side
