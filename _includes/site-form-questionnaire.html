@@ -1,0 +1,132 @@
+{% if include.name %}
+  {% assign name = include.name %}
+{% else %}
+  {% assign name = "Contact" %}
+{% endif %}
+
+{% assign name_id = name | downcase | replace: " ", "-" %}
+
+{% if include.thanks_url %}
+  {% assign thanks_url = include.thanks_url %}
+{% else %}
+  {% assign thanks_url = "/thanks/" %}
+{% endif %}
+
+<form class="form  form--{{ name_id }}" method="post" name="{{ name }}" action="{{ thanks_url }}"
+  {% if include.netlify_form %}
+    netlify-honeypot="bot-field"
+    netlify
+  {% endif %}
+>
+  <fieldset class="fieldset  form__fieldset">
+    <legend class="legend form__legend">{{ name }}</legend>
+    <label class="label" for="name--{{ name_id }}">Name <span class="required">*</span></label>
+    <input class="input" id="name--{{ name_id }}" type="text" name="name" value="" placeholder="Your Name" required="required" />
+
+    <label class="label" for="email--{{ name_id }}">Email Address <span class="required">*</span></label>
+    <input class="input" id="email--{{ name_id }}" type="email" name="email" value="" placeholder="email@website.com" required="required" />
+
+    <label class="label" for="telephone--{{ name_id }}">Telephone <span class="required">*</span></label>
+    <input class="input" id="telephone--{{ name_id }}" type="text" name="telephone" placeholder="0455 555 555" required="required">
+
+    <fieldset id="fs-time-contact">
+      <label class="label" for="time-contact--{{ name_id }}">Indicate best time to contact</label>
+      <select class="input" id="time-contact--{{ name_id }}" name="time-contact" required="">
+        <option value="Choose" selected="" disabled="">Choose</option>
+        <option value="Morning">Morning</option>
+        <option value="Afternoon">Afternoon</option>
+        <option value="Evening">Evening</option>
+      </select>
+    </fieldset>
+
+    <fieldset id="fs-age-group">
+      <label class="label" for="age-group--{{ name_id }}">Age group</label>
+      <select class="input" id="age-group--{{ name_id }}" name="age-group" required="">
+        <option value="Choose" selected="" disabled="">Choose</option>
+        <option value="Below 18">Below 18</option>
+        <option value="18-25">18-25</option>
+        <option value="26-35">26-35</option>
+        <option value="36-45">36-45</option>
+        <option value="46-55">46-55</option>
+        <option value="56-65">56-65</option>
+        <option value="66 and over">66 and over</option>
+      </select>
+    </fieldset>
+
+    <fieldset id="fs-gender">
+      <label class="label" for="gender--{{ name_id }}">Gender</label>
+      <select class="input" id="gender--{{ name_id }}" name="gender" required="">
+        <option value="Choose" selected="" disabled="">Choose</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+    </fieldset>
+
+    <fieldset id="fs-prescribed-medication">
+      <label class="label" for="prescribed-medication--{{ name_id }}">Do you take regular prescribed medication?</label>
+      <select class="input" id="prescribed-medication--{{ name_id }}" name="prescribed-medication" required="">
+        <option value="Choose" selected="" disabled="">Choose</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+    </fieldset>
+
+    <label class="label" for="prescribed-medication-details--{{ name_id }}">If yes, please list the name of the medication, dosage, frequency and when you started taking the medication.</label>
+    <textarea class="textarea" id="prescribed-medication-details--{{ name_id }}" name="prescribed-medication-details" placeholder=""  rows="8" required=""></textarea>
+
+    <fieldset id="fs-relationships">
+      <label class="label" for="relationships--{{ name_id }}">Your relationships (tick which most appropriately describes your current relationship pattern).</label>
+      <select class="input" id="relationships--{{ name_id }}" name="relationships" required="">
+        <option value="Choose" selected="" disabled="">Choose</option>
+        <option value="No previous sexual relationship">No previous sexual relationship</option>
+        <option value="I do not want an intimate relationship at this point in time">I do not want an intimate relationship at this point in time</option>
+        <option value="I would like a partner, but I find it difficult to form relationships">I would like a partner, but I find it difficult to form relationships</option>
+        <option value=" I have short and frequent relationships">I have short and frequent relationships</option>
+        <option value="My relationship with my partner is in crisis">My relationship with my partner is in crisis</option>
+        <option value="I am in a committed and loving relationship">I am in a committed and loving relationship</option>
+        <option value="Other">Other</option>
+      </select>
+    </fieldset>
+
+    <fieldset id="fs-sexual-preference">
+      <label class="label" for="sexual-preference--{{ name_id }}">Sexual preference</label>
+      <select class="input" id="sexual-preference--{{ name_id }}" name="sexual-preference" required="">
+        <option value="Choose" selected="" disabled="">Choose</option>
+        <option value="Heterosexual">Heterosexual</option>
+        <option value="Gay/Lesbian">Gay/Lesbian</option>
+        <option value="Bisexual">Bisexual</option>
+        <option value="Other">Other</option>
+      </select>
+    </fieldset>
+
+    <label class="label" for="sexual-difficulty--{{ name_id }}">Describe the sexual difficulty you want to change or improve.</label>
+    <textarea class="textarea" id="sexual-difficulty--{{ name_id }}" name="sexual-difficulty" placeholder=""  rows="8" required=""></textarea>
+
+    <label class="label" for="sexual-difficulty-reasons--{{ name_id }}">What do you think could be some reasons why you experience this difficulty?</label>
+    <textarea class="textarea" id="sexual-difficulty-reasons--{{ name_id }}" name="sexual-difficulty-reasons" placeholder=""  rows="8" required=""></textarea>
+
+    <label class="label" for="what-you-tried--{{ name_id }}">What have you tried to improve your situation, i.e. therapies, self help books, alternative treatments, other?</label>
+    <textarea class="textarea" id="what-you-tried--{{ name_id }}" name="what-you-tried" placeholder=""  rows="8" required=""></textarea>
+
+    <input class="button" type="submit" value="Send" />
+    <br/>
+    <small class="small"><span class="required">*</span> indicates a required field</small>
+
+    {% if include.netlify_form %}
+      <label  style="display:none">Don’t fill this out if you’re human: <input name="bot-field" /></label>
+    {% else %}
+      <input type="text" name="_gotcha" style="display:none">
+      <input type="hidden" name="_subject" value="{{ site.title }} submission from {{ name }}">
+      <input type="hidden" name="_next" value="{{ thanks_url }}" />
+    {% endif %}
+  </fieldset>
+</form>
+{% unless include.netlify_form %}
+  <script>
+    var email = "{{ site.email | split: "" | reverse | join: "" }}";
+    var unraveledEmail = email.split("").reverse().join("");
+    var form = document.querySelector(".form--{{ name_id }}");
+      form.setAttribute("action", "https://formspree.io/" + unraveledEmail);
+  </script>
+  <noscript>Please enable JavaScript to use the form.</noscript>
+{% endunless %}

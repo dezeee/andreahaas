@@ -1,7 +1,7 @@
 ---
 title: Therapy for sexual problems
 layout: page
-feature_image: "https://picsum.photos/1300/400?image=107"
+feature_image: "/assets/covers/cover-green-ears-of-wheat-1.jpg"
 feature_text: |
   # Thinking • Feeling • Action
 aside: true
@@ -14,7 +14,7 @@ I am a registered psychologist and accredited sexuality therapist. I can offer y
 * emotional detachment, difficulties with intimacy
 * painful sex during intercourse, vaginismus
 * sexual difficulties related to gynaecological problems (i.e. urinary tract infections, menstruation, fertility, contraception, pregnancy, childbirth,  menopause)
-* [premature ejaculation](/contact), delayed ejaculation
+* premature ejaculation, delayed ejaculation
 * performance anxiety, erection problems
 * sexuality and the aging body
 * physical, emotional & sexual abuse
@@ -43,3 +43,4 @@ By generating awareness of patterns of avoidant behaviour you can begin to addre
 
 The combination of my skill sets allow me to offer a broad range of therapeutic methods and holistic interventions. You will see for yourself what prevents you from having the sex life you want. Your concerns are addressed from a psychological and body-oriented level where lasting changes can take place.
 
+[Read about holistic therapy and services I provide…](/services)
