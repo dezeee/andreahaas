@@ -31,7 +31,7 @@
 
     <fieldset id="fs-time-contact">
       <label class="label" for="time-contact--{{ name_id }}">Indicate best time to contact</label>
-      <select class="input" id="time-contact--{{ name_id }}" name="time-contact" required="">
+      <select class="input" id="time-contact--{{ name_id }}" name="time-contact">
         <option value="Choose" selected="" disabled="">Choose</option>
         <option value="Morning">Morning</option>
         <option value="Afternoon">Afternoon</option>
@@ -41,7 +41,7 @@
 
     <fieldset id="fs-age-group">
       <label class="label" for="age-group--{{ name_id }}">Age group</label>
-      <select class="input" id="age-group--{{ name_id }}" name="age-group" required="">
+      <select class="input" id="age-group--{{ name_id }}" name="age-group">
         <option value="Choose" selected="" disabled="">Choose</option>
         <option value="Below 18">Below 18</option>
         <option value="18-25">18-25</option>
@@ -55,7 +55,7 @@
 
     <fieldset id="fs-gender">
       <label class="label" for="gender--{{ name_id }}">Gender</label>
-      <select class="input" id="gender--{{ name_id }}" name="gender" required="">
+      <select class="input" id="gender--{{ name_id }}" name="gender">
         <option value="Choose" selected="" disabled="">Choose</option>
         <option value="Male">Male</option>
         <option value="Female">Female</option>
@@ -64,7 +64,7 @@
 
     <fieldset id="fs-prescribed-medication">
       <label class="label" for="prescribed-medication--{{ name_id }}">Do you take regular prescribed medication?</label>
-      <select class="input" id="prescribed-medication--{{ name_id }}" name="prescribed-medication" required="">
+      <select class="input" id="prescribed-medication--{{ name_id }}" name="prescribed-medication">
         <option value="Choose" selected="" disabled="">Choose</option>
         <option value="Yes">Yes</option>
         <option value="No">No</option>
@@ -72,11 +72,11 @@
     </fieldset>
 
     <label class="label" for="prescribed-medication-details--{{ name_id }}">If yes, please list the name of the medication, dosage, frequency and when you started taking the medication.</label>
-    <textarea class="textarea" id="prescribed-medication-details--{{ name_id }}" name="prescribed-medication-details" placeholder=""  rows="8" required=""></textarea>
+    <textarea class="textarea" id="prescribed-medication-details--{{ name_id }}" name="prescribed-medication-details" placeholder=""  rows="8"></textarea>
 
     <fieldset id="fs-relationships">
       <label class="label" for="relationships--{{ name_id }}">Your relationships (tick which most appropriately describes your current relationship pattern).</label>
-      <select class="input" id="relationships--{{ name_id }}" name="relationships" required="">
+      <select class="input" id="relationships--{{ name_id }}" name="relationships">
         <option value="Choose" selected="" disabled="">Choose</option>
         <option value="No previous sexual relationship">No previous sexual relationship</option>
         <option value="I do not want an intimate relationship at this point in time">I do not want an intimate relationship at this point in time</option>
@@ -90,7 +90,7 @@
 
     <fieldset id="fs-sexual-preference">
       <label class="label" for="sexual-preference--{{ name_id }}">Sexual preference</label>
-      <select class="input" id="sexual-preference--{{ name_id }}" name="sexual-preference" required="">
+      <select class="input" id="sexual-preference--{{ name_id }}" name="sexual-preference">
         <option value="Choose" selected="" disabled="">Choose</option>
         <option value="Heterosexual">Heterosexual</option>
         <option value="Gay/Lesbian">Gay/Lesbian</option>
@@ -100,13 +100,13 @@
     </fieldset>
 
     <label class="label" for="sexual-difficulty--{{ name_id }}">Describe the sexual difficulty you want to change or improve.</label>
-    <textarea class="textarea" id="sexual-difficulty--{{ name_id }}" name="sexual-difficulty" placeholder=""  rows="8" required=""></textarea>
+    <textarea class="textarea" id="sexual-difficulty--{{ name_id }}" name="sexual-difficulty" placeholder=""  rows="8"></textarea>
 
     <label class="label" for="sexual-difficulty-reasons--{{ name_id }}">What do you think could be some reasons why you experience this difficulty?</label>
-    <textarea class="textarea" id="sexual-difficulty-reasons--{{ name_id }}" name="sexual-difficulty-reasons" placeholder=""  rows="8" required=""></textarea>
+    <textarea class="textarea" id="sexual-difficulty-reasons--{{ name_id }}" name="sexual-difficulty-reasons" placeholder=""  rows="8"></textarea>
 
     <label class="label" for="what-you-tried--{{ name_id }}">What have you tried to improve your situation, i.e. therapies, self help books, alternative treatments, other?</label>
-    <textarea class="textarea" id="what-you-tried--{{ name_id }}" name="what-you-tried" placeholder=""  rows="8" required=""></textarea>
+    <textarea class="textarea" id="what-you-tried--{{ name_id }}" name="what-you-tried" placeholder=""  rows="8"></textarea>
 
     <input class="button" type="submit" value="Send" />
     <br/>
