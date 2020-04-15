@@ -16,7 +16,7 @@ I am a registered psychologist and accredited sexuality therapist. I can offer y
 * sexual difficulties related to gynaecological problems (i.e. urinary tract infections, menstruation, fertility, contraception, pregnancy, childbirth,  menopause)
 * premature ejaculation, delayed ejaculation
 * performance anxiety, erection problems
-* sexuality and the aging body
+* sexuality and the ageing body
 * physical, emotional & sexual abuse
 * sexual trauma (incest, rape, molestation)
 * compulsive sexual behaviour & desires (i.e. compulsive use of erotica and/or  internet for sexual purposes, compulsive cruising & multiple sexual partners)

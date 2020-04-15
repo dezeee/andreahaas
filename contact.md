@@ -8,6 +8,9 @@ feature_text: |
 # In any of ## XXX headers changed, you need to update links in the services list
 ---
 
+Here you can find several ways of contacting me. You can always reach me by phone or email that are listed below. Alternatively, you can quickly fill out provided _Self Report Questionnaire_ and I will respond within 24 hours.
+Also on this page you can find useful information about the clinic location, bookings and Medicare/private funds claims.
+
 - [Self Report Questionnaire](#self-report-questionnaire)
 - [Booking information](#booking-information)
 - [Clinic location](#clinic-location)
@@ -27,6 +30,12 @@ This is an obligation free service and is only available to sincere requests. Pl
 Also, indicate the best time for me to contact you. This first conversation is not designed to fix your situation, but it gives you the opportunity to briefly speak about your issues and ask me any questions. I may then be able to point out therapeutic directions helpful for your particular situation.
 
 {% include site-form-questionnaire.html name="Self Report Questionnaire" form_action="https://formspree.io/xrgarolo" %}
+
+#### Thanks for sending the information
+
+You will hear from me soon. If you have not received a reply within 24 hours please call me on my mobile 0425 218 022 between 9am–5pm (EST, Australia), Mon–Sat.
+
+Please be aware that confidentiality can be compromised when you send email requests due to security limitations on the internet. If you wish to remain anonymous and do not want to fill in the self report form you are welcome to contact me by phone.
 
 ## Booking information
 
@@ -76,7 +85,7 @@ You need to first make an appointment with your GP. Your medical practitioner ca
 
 You may give the name & details of the psychologist you wish to see to your GP.
 
-You need to bring your doctor's referral and/or your Mental Health Treatment Plan to the first session with the psychologist to be able to claim the rebate of $84.80.
+You need to bring your doctor's referral and/or your Mental Health Treatment Plan to the first session with the psychologist to be able to claim the rebate of $86.15.
 
 If you have any questions about obtaining a referral from your GP please email me on andrea@andreahaas.com or call me on 0425 218 022.
 
