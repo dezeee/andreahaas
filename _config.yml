@@ -20,8 +20,7 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://andreahaas.github.io'
-#url: 'https://andreahaas.com'
+url: 'https://andreahaas.com'
 baseurl: ''
 lang: en-GB
 title: 'Andrea Haas | Holistic sex therapist'
