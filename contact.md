@@ -19,7 +19,7 @@ Also on this page you can find useful information about the clinic location, boo
 ## Primary
 
 <p>
-{% include icon-feather.html id="phone" title="phone" %} 0425 218 022<br>
+{% include icon-feather.html id="phone" title="phone" %} {{ site.phone }}<br>
 {% include icon.html id="email" title="email" %} <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 </p>
 
@@ -33,7 +33,7 @@ Also, indicate the best time for me to contact you. This first conversation is n
 
 #### Thanks for sending the information
 
-You will hear from me soon. If you have not received a reply within 24 hours please call me on my mobile 0425 218 022 between 9am–5pm (EST, Australia), Mon–Sat.
+You will hear from me soon. If you have not received a reply within 24 hours please call me on my mobile {{ site.phone }} between 9am–5pm (EST, Australia), Mon–Sat.
 
 Please be aware that confidentiality can be compromised when you send email requests due to security limitations on the internet. If you wish to remain anonymous and do not want to fill in the self report form you are welcome to contact me by phone.
 
@@ -71,7 +71,7 @@ Free 3 hour parking is available in Chatswood Chase Shopping Centre Car Park. Al
 
 The clinic is a short stroll from Chatswood train station. Walk along Victoria Ave, turn right at Neridah St and walk towards Albert Ave. Chatswood Village, a business complex of commercial terraces, will be on your right. Look for Suite 54. If you have trouble finding the clinc rooms, just give me a call.
 
-> **Note:** You do not need a referral from your doctor but you need to contact me on 0425 218 022 to make an appointment before you come to the clinic.
+> **Note:** You do not need a referral from your doctor but you need to contact me on {{ site.phone }} to make an appointment before you come to the clinic.
 
 ## Medicare & private health fund claims
 
@@ -87,7 +87,7 @@ You may give the name & details of the psychologist you wish to see to your GP.
 
 You need to bring your doctor's referral and/or your Mental Health Treatment Plan to the first session with the psychologist to be able to claim the rebate of $86.15.
 
-If you have any questions about obtaining a referral from your GP please email me on andrea@andreahaas.com or call me on 0425 218 022.
+If you have any questions about obtaining a referral from your GP please email me on {{ site.email }} or call me on {{ site.phone }}.
 
 ### Private health fund claims
 
