@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Andrea Haas
-feature_image: "/assets/covers/cover-oranges-with-leaves-1.jpg"
+feature_image: "/assets/covers/cover-flowers-red-1.jpg"
 feature_text: |
   # Experience & Practice
 aside: true
