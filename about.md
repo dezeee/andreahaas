@@ -9,7 +9,7 @@ aside_options:
   section1: services
 ---
 
-{% include image-box.html image="/assets/photos/andrea-haas.jpg" width="200" text="Andrea is an experienced holistic therapist with more than 20 years practice experience. She specialises in sexual dysfunction, premature ejaculation, painful sex, sexual desire and libido." %}
+{% include image-box.html image="/assets/photos/andrea-haas.jpg" width="200" text="Andrea is an experienced holistic therapist with more than 20 years of practice experience. She specialises in sexual dysfunction, premature ejaculation, painful sex, sexual desire and libido." %}
 
 ## Education & counselling experience
 
@@ -34,4 +34,4 @@ You will see for yourself what blockages prevent you from having the sex life yo
 
 ## Mindfulness training
 
-Ongoing training and development in _Inner Space Techniques_ (IST), a set of therapeutic modalities developed by Dr. Samuel Sagan and refined by a group of medical health practitioners, psychologists and psychotherapists. I have been an active contributor of this group for over two decades.
+Ongoing training and development in _Inner Space Techniques_ (IST), a set of therapeutic modalities developed by Dr. Samuel Sagan and refined by a group of medical health practitioners, psychologists and psychotherapists. I have been an active contributor to this group for over two decades.
